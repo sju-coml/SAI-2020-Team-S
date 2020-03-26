@@ -5,3 +5,5 @@
 https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/
 
 <br>
+
+[yolo v3 implementation](https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)
