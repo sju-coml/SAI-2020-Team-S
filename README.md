@@ -24,7 +24,9 @@
 5. 다선 (5/12) <br>
 6. 서영 (5/19) <br>
 7. 현진 (5/26) : Super Resolution <br>
+
 8. 영준 (6/2) <br>
+> 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
 
 
 <br>
