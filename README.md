@@ -10,6 +10,25 @@
 
 <br>
 
+## 주제 및 일정
+
+**발표 순서** <br>
+
+1. 지원 (3/31) : Object Detection <br>
+> 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
+  모두 Object Detection 관련된 논문들이고 컨셉이 비슷해서 다 공통분모가 많아서 많아보이지 실상 내용은 없습니다!
+
+2. 재성 (4/7) <br>
+3. 나현 (4/14) <br>
+4. 장후 (5/5) <br>
+5. 다선 (5/12) <br>
+6. 서영 (5/19) <br>
+7. 현진 (5/26) : Super Resolution <br>
+8. 영준 (6/2) <br>
+
+
+<br>
+
 ## 당부의 말씀
 
 여러분, 안그래도 S팀 하면 팍팍한 냄새 많이 나는데, 우리 (고이고 썩고) 그러지 말고 좀 친하고 파릇파릇게 지냅시다. <br>
