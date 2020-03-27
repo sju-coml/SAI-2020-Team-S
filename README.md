@@ -6,7 +6,7 @@
 
 |    팀    | 스터디그룹 | 그룹장 | 구성원 | 모임시간 |   멘토  |
 |:--------:|:---------:|:------:|:------:|:--------:|:------:|
-| S-paper&networking   |   Group 1 |   권나현 | 서영, 지원, 다선, 현진, 장후, RaiX(?), 영준  |  화 6:30    | 배현진 |
+| S-paper&networking   |   Group 1 |   권나현 | 서영, 지원, 다선, 현진, 장후, 재성, 영준  |  화 6:30    | 배현진 |
 
 <br>
 
@@ -18,7 +18,7 @@
 > 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
   모두 Object Detection 관련된 논문들이고 컨셉이 비슷해서 다 공통분모가 많아서 많아보이지 실상 내용은 없습니다!
 
-2. 재성 (4/7) <br>
+2. 재성 (4/7) : Cycle GAN <br>
 3. 나현 (4/14) <br>
 4. 장후 (5/5) <br>
 5. 다선 (5/12) <br>
