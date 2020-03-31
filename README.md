@@ -14,11 +14,11 @@
 
 **발표 순서** <br>
 
-1. 지원 (3/31) : Object Detection <br>
+1. 지원 (3/31) : CV, Object Detection <br>
 > 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
   모두 Object Detection 관련된 논문들이고 컨셉이 비슷해서 다 공통분모가 많아서 많아보이지 실상 내용은 없습니다!
 
-2. 재성 (4/7) : Cycle GAN <br>
+2. 재성 (4/7) : CV, Cycle GAN <br>
 3. 나현 (4/14) <br>
 4. 장후 (5/5) <br>
 5. 다선 (5/12) <br>
