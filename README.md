@@ -42,7 +42,7 @@
 | 재성     | 컴퓨터공학          | CV  | RL |
 | 현진     | 건축공학          | CV  |  - |
 | 서영     | 소프트웨어 / Graphics  | RL  |  - |
-| 영준     | 컴퓨터공학         | CV  | Speech, 3D |
+| 영준     | 컴퓨터공학         | CV  | Speech, 3D Reconstruction |
 
 <br>
 
