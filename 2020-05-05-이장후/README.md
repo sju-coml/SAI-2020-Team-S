@@ -22,5 +22,5 @@ https://blog.paperspace.com/data-augmentation-for-bounding-boxes/
 
 <br>
 
-What initialization for Convolution Filter with ReLU Activation function <br>
+What initialization works better for Convolution Filter with ReLU Activation function <br>
 https://medium.com/@tylernisonoff/weight-initialization-for-cnns-a-deep-dive-into-he-initialization-50b03f37f53d
