@@ -7,6 +7,7 @@ https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-loca
 
 <br>
 
+Yolo v3 build model with keras, testing implementation <br>
 [yolo v3 testing implementation](https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)
 
 <br>
