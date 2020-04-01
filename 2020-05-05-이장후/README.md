@@ -2,7 +2,7 @@
 
 <br>
 
-Draw MAP with GAP <br>
+Draw CAM with GAP <br>
 https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/
 
 <br>
