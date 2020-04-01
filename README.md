@@ -38,7 +38,7 @@
 | 나현     | 경영, 소프트웨어         | CV  | NLP, RL |
 | 장후     | 컴퓨터공학 / Automobile | CV  | RL |
 | 지원     | 항공우주공, 컴퓨터공학 /      | CV  | RL |
-| 다선     | Drone     | RL  | CV |
+| 다선     | 항공우주공, Missile Guidance | RL  | CV |
 | 재성     | 컴퓨터공학          | CV  | RL |
 | 현진     | 건축공학          | CV  |  - |
 | 서영     | 소프트웨어 / Graphics  | RL  |  - |
