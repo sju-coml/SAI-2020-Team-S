@@ -24,3 +24,8 @@ https://blog.paperspace.com/data-augmentation-for-bounding-boxes/
 
 What initialization works better for Convolution Filter with ReLU Activation function <br>
 https://medium.com/@tylernisonoff/weight-initialization-for-cnns-a-deep-dive-into-he-initialization-50b03f37f53d
+
+<br>
+
+yolo v2 step-by-step <br>
+https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
