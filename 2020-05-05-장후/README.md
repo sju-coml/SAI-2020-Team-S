@@ -48,6 +48,7 @@ https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
 <br>
 
 [VGG16](https://github.com/keras-team/keras-applications/blob/master/keras_applications/vgg16.py) <br>
+[get_submodules_from_kwargs](https://github.com/keras-team/keras-applications/blob/bc89834ed36935ab4a4994446e34ff81c0d8e1b7/keras_applications/__init__.py#L13)
 
 <br>
 
@@ -59,6 +60,21 @@ https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
 <br>
 
 ```Python3
+def get_submodules_from_kwargs(kwargs):
+    backend = kwargs.get('backend', _KERAS_BACKEND)
+    layers = kwargs.get('layers', _KERAS_LAYERS)
+    models = kwargs.get('models', _KERAS_MODELS)
+    utils = kwargs.get('utils', _KERAS_UTILS)
+    for key in kwargs.keys():
+        if key not in ['backend', 'layers', 'models', 'utils']:
+            raise TypeError('Invalid keyword argument: %s', key)
+    return backend, layers, models, utils
+```
+
+<br>
+
+```Python3
+    # VGG16
     # Create model.
     model = models.Model(inputs, x, name='vgg16')
 
