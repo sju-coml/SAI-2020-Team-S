@@ -102,6 +102,61 @@ def get_submodules_from_kwargs(kwargs):
 ```
 <br>
 
+아무리 찾아도, 저 .get_file 을 찾을수가 없었음.
+
+<br>
+
 [model.Model Class](https://github.com/keras-team/keras/blob/7a39b6c62d43c25472b2c2476bd2a8983ae4f682/keras/engine/training.py#L28) <br>
+[model.load_weight](https://github.com/keras-team/keras/blob/1cf5218edb23e575a827ca4d849f1d52d21b4bb0/keras/engine/network.py#L1188) <br>
+
+
+```Python3
+    #line 1188
+    def load_weights(self, filepath, by_name=False,
+                     skip_mismatch=False, reshape=False):
+        """Loads all layer weights from a HDF5 save file.
+        If `by_name` is False (default) weights are loaded
+        based on the network's topology, meaning the architecture
+        should be the same as when the weights were saved.
+        Note that layers that don't have weights are not taken
+        into account in the topological ordering, so adding or
+        removing layers is fine as long as they don't have weights.
+        If `by_name` is True, weights are loaded into layers
+        only if they share the same name. This is useful
+        for fine-tuning or transfer-learning models where
+        some of the layers have changed.
+        # Arguments
+            filepath: String, path to the weights file to load.
+            by_name: Boolean, whether to load weights by name
+                or by topological order.
+            skip_mismatch: Boolean, whether to skip loading of layers
+                where there is a mismatch in the number of weights,
+                or a mismatch in the shape of the weight
+                (only valid when `by_name`=True).
+            reshape: Reshape weights to fit the layer when the correct number
+                of weight arrays is present but their shape does not match.
+        # Raises
+            ImportError: If h5py is not available.
+        """
+        if h5py is None:
+            raise ImportError('`load_weights` requires h5py.')
+        with h5py.File(filepath, mode='r') as f:
+            if 'layer_names' not in f.attrs and 'model_weights' in f:
+                f = f['model_weights']
+            if by_name:
+                saving.load_weights_from_hdf5_group_by_name(
+                    f, self.layers, skip_mismatch=skip_mismatch,
+                    reshape=reshape)
+            else:
+                saving.load_weights_from_hdf5_group(
+                    f, self.layers, reshape=reshape)
+            if hasattr(f, 'close'):
+                f.close()
+            elif hasattr(f.file, 'close'):
+                f.file.close()    
+
+```
+
+
 [hdf5_format.py, def save_weights_to_hdf5_group(f,layers)](https://github.com/tensorflow/tensorflow/blob/db821b3c2b5a999da6915ff079e9709329a722fb/tensorflow/python/keras/saving/hdf5_format.py) <br>
 
