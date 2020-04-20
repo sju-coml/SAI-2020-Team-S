@@ -17,8 +17,19 @@ https://keraskorea.github.io/posts/2018-10-24-little_data_powerful_model/
 
 <br>
 
+yolo v2 step-by-step <br>
+https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
+
+<br>
+
+### Image Augmentation
+
 image augmentation for detection problem <br>
 https://blog.paperspace.com/data-augmentation-for-bounding-boxes/
+
+<br>
+
+### Weight Initialization
 
 <br>
 
@@ -27,10 +38,9 @@ https://medium.com/@tylernisonoff/weight-initialization-for-cnns-a-deep-dive-int
 
 <br>
 
-yolo v2 step-by-step <br>
-https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
+Deepest - initialization <br>
+https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
 
 <br>
 
-Deepest - initialization <br>
-https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
+
