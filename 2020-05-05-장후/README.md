@@ -48,7 +48,39 @@ https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
 <br>
 
 [VGG16](https://github.com/keras-team/keras-applications/blob/master/keras_applications/vgg16.py) <br>
+
+<br>
+
+
+```Python3
+    # Create model.
+    model = models.Model(inputs, x, name='vgg16')
+
+    # Load weights.
+    if weights == 'imagenet':
+        if include_top:
+            weights_path = keras_utils.get_file(
+                'vgg16_weights_tf_dim_ordering_tf_kernels.h5',
+                WEIGHTS_PATH,
+                cache_subdir='models',
+                file_hash='64373286793e3c8b2b4e3219cbf3544b')
+        else:
+            weights_path = keras_utils.get_file(
+                'vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5',
+                WEIGHTS_PATH_NO_TOP,
+                cache_subdir='models',
+                file_hash='6d6bbae143d832006294945121d1f1fc')
+        model.load_weights(weights_path)
+        if backend.backend() == 'theano':
+            keras_utils.convert_all_kernels_in_model(model)
+    elif weights is not None:
+        model.load_weights(weights)
+
+    return model
+```
+
+<br>
+
 [model.Model Class](https://github.com/keras-team/keras/blob/7a39b6c62d43c25472b2c2476bd2a8983ae4f682/keras/engine/training.py#L28) <br>
 [hdf5_format.py, def save_weights_to_hdf5_group(f,layers)](https://github.com/tensorflow/tensorflow/blob/db821b3c2b5a999da6915ff079e9709329a722fb/tensorflow/python/keras/saving/hdf5_format.py) <br>
-
 
