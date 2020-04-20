@@ -76,6 +76,13 @@ def get_submodules_from_kwargs(kwargs):
 ```Python3
     # VGG16
     # Create model.
+    
+    # Arguments :
+    '''
+    weights: one of `None` (random initialization),
+    'imagenet' (pre-training on ImageNet), or the path to the weights file to be loaded.
+    '''
+    
     model = models.Model(inputs, x, name='vgg16')
 
     # Load weights.
@@ -103,6 +110,12 @@ def get_submodules_from_kwargs(kwargs):
 <br>
 
 아무리 찾아도, 저 .get_file 을 찾을수가 없었음.
+근데 우리는 imagenet pre-trained 사용 안하니까
+
+```Python3
+    elif weights is not None:
+        model.load_weights(weights)
+```
 
 <br>
 
