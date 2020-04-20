@@ -43,4 +43,12 @@ https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
 
 <br>
 
+### Keras Real Code
+
+<br>
+
+[VGG16]https://github.com/keras-team/keras-applications/blob/master/keras_applications/vgg16.py <br>
+[model.Model Class]https://github.com/keras-team/keras/blob/7a39b6c62d43c25472b2c2476bd2a8983ae4f682/keras/engine/training.py#L28 <br>
+[hdf5_format.py, def save_weights_to_hdf5_group(f,layers)]https://github.com/tensorflow/tensorflow/blob/db821b3c2b5a999da6915ff079e9709329a722fb/tensorflow/python/keras/saving/hdf5_format.py <br>
+
 
