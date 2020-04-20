@@ -29,3 +29,8 @@ https://medium.com/@tylernisonoff/weight-initialization-for-cnns-a-deep-dive-int
 
 yolo v2 step-by-step <br>
 https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
+
+<br>
+
+Deepest - initialization <br>
+https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
