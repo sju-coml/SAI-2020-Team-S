@@ -50,8 +50,11 @@ https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
 [VGG16](https://github.com/keras-team/keras-applications/blob/master/keras_applications/vgg16.py) <br>
 
 <br>
-
-
+```Python3
+    #line 82
+    backend, layers, models, keras_utils = get_submodules_from_kwargs(kwargs)
+```
+<br>
 ```Python3
     # Create model.
     model = models.Model(inputs, x, name='vgg16')
@@ -78,7 +81,6 @@ https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
 
     return model
 ```
-
 <br>
 
 [model.Model Class](https://github.com/keras-team/keras/blob/7a39b6c62d43c25472b2c2476bd2a8983ae4f682/keras/engine/training.py#L28) <br>
