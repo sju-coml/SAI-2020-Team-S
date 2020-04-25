@@ -20,12 +20,11 @@
 
 2. 재성 (4/7) : Cycle GAN <br>
 3. 나현 (4/14) : Catboost <br>
-4. 장후 (5/5) <br>
+4. 영준 (5/5) <br>
 5. 다선 (5/12) <br>
 6. 서영 (5/19) <br>
 7. 현진 (5/26) : Super Resolution <br>
-
-8. 영준 (6/2) <br>
+8. 장후 (6/2) <br>
 > 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
 
 <br>
