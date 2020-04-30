@@ -110,7 +110,16 @@ def get_submodules_from_kwargs(kwargs):
 <br>
 
 아무리 찾아도, 저 .get_file 을 찾을수가 없었음.
-근데 우리는 imagenet pre-trained 사용 안하니까
+```
+        else:
+            weights_path = keras_utils.get_file(
+                'vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5',
+                WEIGHTS_PATH_NO_TOP,
+                cache_subdir='models',
+                file_hash='6d6bbae143d832006294945121d1f1fc')
+        model.load_weights(weights_path)
+
+```
 
 ```Python3
     elif weights is not None:
