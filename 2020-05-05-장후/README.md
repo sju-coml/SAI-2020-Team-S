@@ -182,3 +182,5 @@ def get_submodules_from_kwargs(kwargs):
 
 [hdf5_format.py, def save_weights_to_hdf5_group(f,layers)](https://github.com/tensorflow/tensorflow/blob/db821b3c2b5a999da6915ff079e9709329a722fb/tensorflow/python/keras/saving/hdf5_format.py) <br>
 
+- 진짜 오류가 오지게 나서 Keras 코드를 싹 까뒤집었는데도 문제 발견이 안돼서 왜 그런가 잘 생각을 해 봄.
+- 그런데, 문제는 tensorflow.keras 로 호출하지 않고 colab 환경에서 그냥 keras 를 import 해서 생기는 문제였음.
