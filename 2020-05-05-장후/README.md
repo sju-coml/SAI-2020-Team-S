@@ -184,3 +184,7 @@ def get_submodules_from_kwargs(kwargs):
 
 - 진짜 오류가 오지게 나서 Keras 코드를 싹 까뒤집었는데도 문제 발견이 안돼서 왜 그런가 잘 생각을 해 봄.
 - 그런데, 문제는 tensorflow.keras 로 호출하지 않고 colab 환경에서 그냥 keras 를 import 해서 생기는 문제였음.
+- 그 다음에 발생한 문제는 단지 vgg-16 이 너무 오래된 모델이라 그런지, h5 file 규격이 조금 다른 듯 함.
+
+
+> @yuyifan1991 No, i was not able to find out the solution taking the "nb_layers" route. i ended up using a different approach to pop out the last layer of vgg16 and then inserting my own classifier. To get a layer of a pretrained network as an input to your own model, use something like : ```model.get_layer(layername).output function``` Hope that helps. Thanks!
