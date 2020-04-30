@@ -110,7 +110,7 @@ def get_submodules_from_kwargs(kwargs):
 <br>
 
 아무리 찾아도, 저 .get_file 을 찾을수가 없었음.
-```
+```Python3
         else:
             weights_path = keras_utils.get_file(
                 'vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5',
@@ -119,11 +119,6 @@ def get_submodules_from_kwargs(kwargs):
                 file_hash='6d6bbae143d832006294945121d1f1fc')
         model.load_weights(weights_path)
 
-```
-
-```Python3
-    elif weights is not None:
-        model.load_weights(weights)
 ```
 
 <br>
@@ -196,4 +191,4 @@ according to https://github.com/neokt/car-damage-detective/issues/6 <br>
 <br>
 
 [KOR, DSSchool : about h5 file](https://datascienceschool.net/view-notebook/f1c286a1d5164975a9909bb7a341bf4c/)
-
+[HDF File Viewer](https://www.hdfgroup.org/downloads/hdfview/?https%3A%2F%2Fwww.hdfgroup.org%2Fdownloads%2Fhdfview%2F)
