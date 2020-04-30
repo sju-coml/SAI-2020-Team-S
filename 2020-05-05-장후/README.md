@@ -187,4 +187,13 @@ def get_submodules_from_kwargs(kwargs):
 - 그 다음에 발생한 문제는 단지 vgg-16 이 너무 오래된 모델이라 그런지, h5 file 규격이 조금 다른 듯 함.
 
 
+according to https://github.com/neokt/car-damage-detective/issues/6 <br>
+
 > @yuyifan1991 No, i was not able to find out the solution taking the "nb_layers" route. i ended up using a different approach to pop out the last layer of vgg16 and then inserting my own classifier. To get a layer of a pretrained network as an input to your own model, use something like : ```model.get_layer(layername).output function``` Hope that helps. Thanks!
+
+> nb_layers is not going to work. VGG!6 model has 16 layers in total, 13 convolution and 3 dense. The last dense layer in default trained VGG16 model has 1000 categories. If you want to use the VGG16 model just for feature extraction, use the 13 convolution layers and maybe one dense layer. Pop out the last two layer or just the topmost layer. Once you extract the features, you can use any classifier(SVM or Logistic) to make predictions. There are multiple ways of removing the top layers from VGG16. Search google. Hope that helps.
+
+<br>
+
+[KOR, DSSchool : about h5 file](https://datascienceschool.net/view-notebook/f1c286a1d5164975a9909bb7a341bf4c/)
+
