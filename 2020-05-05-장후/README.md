@@ -178,6 +178,8 @@ def get_submodules_from_kwargs(kwargs):
 [hdf5_format.py, def save_weights_to_hdf5_group(f,layers)](https://github.com/tensorflow/tensorflow/blob/db821b3c2b5a999da6915ff079e9709329a722fb/tensorflow/python/keras/saving/hdf5_format.py) <br>
 
 ``` Python3
+from tensorflow.python.keras import backend as K
+
 # def load_weights_from_hdf5_group(f, layers):
   """Implements topological (order-based) weight loading.
   Arguments:
