@@ -22,6 +22,11 @@ https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
 
 <br>
 
+about transpose - Numpy.transpose axis 이해하기 <br>
+https://superelement.tistory.com/18
+
+<br>
+
 ### Image Augmentation
 
 image augmentation for detection problem <br>
