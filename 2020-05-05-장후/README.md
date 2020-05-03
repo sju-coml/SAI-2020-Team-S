@@ -22,11 +22,6 @@ https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
 
 <br>
 
-about transpose - Numpy.transpose axis 이해하기 <br>
-https://superelement.tistory.com/18
-
-<br>
-
 ### Image Augmentation
 
 image augmentation for detection problem <br>
@@ -323,3 +318,8 @@ according to https://github.com/neokt/car-damage-detective/issues/6 <br>
 - theano(default for local) : [code at here](https://github.com/tdeboissiere/VGG16CAM-keras/blob/master/VGGCAM-keras.py) channel first
 
 <br>
+
+[Numpy.transpose axis 이해하기](https://superelement.tistory.com/18) <br>
+
+<br>
+
