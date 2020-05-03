@@ -177,6 +177,54 @@ def get_submodules_from_kwargs(kwargs):
 
 [hdf5_format.py, def save_weights_to_hdf5_group(f,layers)](https://github.com/tensorflow/tensorflow/blob/db821b3c2b5a999da6915ff079e9709329a722fb/tensorflow/python/keras/saving/hdf5_format.py) <br>
 
+``` Python3
+# def load_weights_from_hdf5_group(f, layers):
+  """Implements topological (order-based) weight loading.
+  Arguments:
+      f: A pointer to a HDF5 group.
+      layers: a list of target layers.
+  Raises:
+      ValueError: in case of mismatch between provided layers
+          and weights file.
+  """
+  
+  layer_names = load_attributes_from_hdf5_group(f, 'layer_names')
+  filtered_layer_names = []
+  for name in layer_names:
+    g = f[name]
+    weight_names = load_attributes_from_hdf5_group(g, 'weight_names')
+    if weight_names:
+      filtered_layer_names.append(name)
+  layer_names = filtered_layer_names
+  if len(layer_names) != len(filtered_layers):
+    raise ValueError('You are trying to load a weight file '
+                     'containing ' + str(len(layer_names)) +
+                     ' layers into a model with ' + str(len(filtered_layers)) +
+                     ' layers.')
+
+  # We batch weight value assignments in a single backend call
+  # which provides a speedup in TensorFlow.
+  weight_value_tuples = []
+  for k, name in enumerate(layer_names):
+    g = f[name]
+    weight_names = load_attributes_from_hdf5_group(g, 'weight_names')
+    weight_values = [np.asarray(g[weight_name]) for weight_name in weight_names]
+    layer = filtered_layers[k]
+    symbolic_weights = _legacy_weights(layer)
+    weight_values = preprocess_weights_for_loading(
+        layer, weight_values, original_keras_version, original_backend)
+    if len(weight_values) != len(symbolic_weights):
+      raise ValueError('Layer #' + str(k) + ' (named "' + layer.name +
+                       '" in the current model) was found to '
+                       'correspond to layer ' + name + ' in the save file. '
+                       'However the new layer ' + layer.name + ' expects ' +
+                       str(len(symbolic_weights)) +
+                       ' weights, but the saved weights have ' +
+                       str(len(weight_values)) + ' elements.')
+    weight_value_tuples += zip(symbolic_weights, weight_values)
+  K.batch_set_value(weight_value_tuples)
+```
+
 - 진짜 오류가 오지게 나서 Keras 코드를 싹 까뒤집었는데도 문제 발견이 안돼서 왜 그런가 잘 생각을 해 봄.
 - 그런데, 문제는 tensorflow.keras 로 호출하지 않고 colab 환경에서 그냥 keras 를 import 해서 생기는 문제였음.
 - 그 다음에 발생한 문제는 단지 vgg-16 이 너무 오래된 모델이라 그런지, h5 file 규격이 조금 다른 듯 함.
