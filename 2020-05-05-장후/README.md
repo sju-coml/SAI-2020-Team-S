@@ -192,3 +192,13 @@ according to https://github.com/neokt/car-damage-detective/issues/6 <br>
 
 [KOR, DSSchool : about h5 file](https://datascienceschool.net/view-notebook/f1c286a1d5164975a9909bb7a341bf4c/) <br>
 [HDF File Viewer](https://www.hdfgroup.org/downloads/hdfview/?https%3A%2F%2Fwww.hdfgroup.org%2Fdownloads%2Fhdfview%2F) <br>
+
+<br>
+
+- 그래서, h5 file 안에 데이터가 어떻게 담겨 있나 열어볼 필요가 있었음
+- HDF File viewer 을 사용해서 내부 데이터를 살펴봄.
+- 다양한 경로로 다양한 h5 file 을 받아 봤는데 모두 똑같이 생겼음
+
+<br>
+
+변경된 
