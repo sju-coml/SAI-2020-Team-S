@@ -308,3 +308,13 @@ according to https://github.com/neokt/car-damage-detective/issues/6 <br>
 - 그런데 이러한 방식으로 load weight 를 한다면, 문제는 무엇이냐면 input layer 이나 flatten layer 과 같이, h5 file 의 layer 과 1:1 대응이 안 되면 터진다는 것. h5 file 에는 input layer 이 명세되어있지 않으므로 input layer 을 model 짤때 넣어놨다면 터짐. 또한, h5 file 에는 conv2d 만 명세되어 있는데, 코드에서 conv2D 따로 zerropad layer 따로 따로 짰다면 터짐.
 - 여튼 핵심은 이게 맞음.
 
+
+<br>
+
+### Channel 에 맞추어 수정하기
+
+- openCV imread : channel last
+- tensorflow : channel last
+- theano(default for local) : [code at here](https://github.com/tdeboissiere/VGG16CAM-keras/blob/master/VGGCAM-keras.py) channel first
+
+<br>
