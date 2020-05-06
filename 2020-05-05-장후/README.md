@@ -385,3 +385,5 @@ def preprocessing_function(im):
 
 이 preprocessing function 은 numpy 3D array 를 input 으로 받는데, 여기서 return 값을 지정을 해주지 않으면 모든 값이 NAN 으로 찍히는 마법을 구경할 수 있음. 처음에는 nan error 이 나길래 tensorboard 가 터지는 건줄알았는데 그게 아니라 애초에 모든 input 값이 nan 이었던 것임.
 
+
+[Batch Dot, Tensorflow.Backend.batch_dot](https://www.tensorflow.org/api_docs/python/tf/keras/backend/batch_dot)
