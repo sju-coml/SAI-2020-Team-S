@@ -6,7 +6,7 @@
 
 <br>
 
-KOR - Draw CAM with GAP <br>
+ENG - Draw CAM with GAP <br>
 https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/
 
 <br>
@@ -47,12 +47,12 @@ https://blog.paperspace.com/data-augmentation-for-bounding-boxes/
 
 <br>
 
-What initialization works better for Convolution Filter with ReLU Activation function <br>
+ENG - What initialization works better for Convolution Filter with ReLU Activation function <br>
 https://medium.com/@tylernisonoff/weight-initialization-for-cnns-a-deep-dive-into-he-initialization-50b03f37f53d
 
 <br>
 
-Deepest - initialization <br>
+KOR - Deepest - initialization <br>
 https://deepestdocs.readthedocs.io/en/latest/002_deep_learning_part_1/0025/
 
 <br>
