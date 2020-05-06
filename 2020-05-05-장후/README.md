@@ -26,6 +26,11 @@ https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
 
 <br>
 
+Keras difference between backends <br>
+https://github.com/keras-team/keras-docs-ko/blob/master/sources/backend.md
+
+<br>
+
 ### Image Augmentation
 
 image augmentation for detection problem <br>
