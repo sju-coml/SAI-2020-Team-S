@@ -323,3 +323,49 @@ according to https://github.com/neokt/car-damage-detective/issues/6 <br>
 
 <br>
 
+### 터지는 현상들
+
+- Keras 의 imagedatagenerator 안에는 hand-craft preprocessing 을 할 수 있는 parameter 이 있음.
+
+```
+  # With Data Augmentation
+    train_datagenerator = keras.preprocessing.image.ImageDataGenerator(
+                                                 #featurewise_center=False, 
+                                                 #samplewise_center=False, 
+                                                 #featurewise_std_normalization=False, 
+                                                 #samplewise_std_normalization=False, 
+                                                 #zca_whitening=False, 
+                                                 #zca_epsilon=1e-06, 
+                                                 #rotation_range=0, 
+                                                 ##width_shift_range=0.0, 
+                                                 #height_shift_range=0.0,
+                                                 #brightness_range=None, 
+                                                 #shear_range=0.0, 
+                                                 #zoom_range=0.0, 
+                                                 #channel_shift_range=0.0, 
+                                                 #fill_mode='nearest', 
+                                                 #cval=0.0, 
+                                                 #horizontal_flip=False, 
+                                                 #vertical_flip=False, 
+                                                 #rescale=None,
+                                                 data_format='channels_last',
+                                                 dtype='float32',
+                                                 preprocessing_function=preprocessing_function,
+                                                 #validation_split=0.0, 
+                                                 #interpolation_order=1, 
+                                                 )
+```
+
+여기에 들어가는 preprocessing function 
+
+```python3
+def preprocessing_function(im):
+  # N.B. The data should be compatible with the VGG16 model style:
+  im[:,:,0] -= 103.939
+  im[:,:,1] -= 116.779
+  im[:,:,2] -= 123.68
+  return im
+```
+
+이 preprocessing function 은 numpy 3D array 를 input 으로 받는데, 여기서 return 값을 지정을 해주지 않으면 모든 값이 NAN 으로 찍히는 마법을 구경할 수 있음. 처음에는 nan error 이 나길래 tensorboard 가 터지는 건줄알았는데 그게 아니라 애초에 모든 input 값이 nan 이었던 것임.
+
