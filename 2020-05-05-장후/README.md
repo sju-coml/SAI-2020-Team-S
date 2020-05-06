@@ -6,32 +6,37 @@
 
 <br>
 
-Draw CAM with GAP <br>
+KOR - Draw CAM with GAP <br>
 https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/
 
 <br>
 
-Yolo v3 build model with keras, testing implementation <br>
+ENG - Yolo v3 build model with keras, testing implementation <br>
 [yolo v3 testing implementation](https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)
 
 <br>
 
-keras example code <br>
-https://keraskorea.github.io/posts/2018-10-24-little_data_powerful_model/
-
-<br>
-
-yolo v2 step-by-step <br>
+ENG - yolo v2 step-by-step <br>
 https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb
 
 <br>
 
-Keras difference between backends <br>
+KOR - Keras difference between backends <br>
 https://github.com/keras-team/keras-docs-ko/blob/master/sources/backend.md
 
 <br>
 
 ### Image Augmentation
+
+ENG - Building powerful image classification models using very little data <br>
+https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html<br>
+
+<br>
+
+KOR - Building powerful image classification models using very little data <br>
+https://keraskorea.github.io/posts/2018-10-24-little_data_powerful_model/
+
+<br>
 
 image augmentation for detection problem <br>
 https://blog.paperspace.com/data-augmentation-for-bounding-boxes/
