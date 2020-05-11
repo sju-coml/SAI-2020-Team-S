@@ -22,6 +22,7 @@
 3. 나현 (4/14) : Catboost <br>
 4. 영준 (5/5) <br>
 5. 다선 (5/12) : RL applications on multi-rotor <br>
+> 드론 관련한 강화학습 논문을 리뷰하겠습니다. 하나는 항법 측면이고, 하나는 유도 제어 측면입니다.
 6. 서영 (5/19) <br>
 7. 장후 (5/26) <br>
 8. 현진 (6/2) : Super Resolution <br>
