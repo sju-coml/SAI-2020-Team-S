@@ -21,7 +21,7 @@
 2. 재성 (4/7) : Cycle GAN <br>
 3. 나현 (4/14) : Catboost <br>
 4. 영준 (5/5) <br>
-5. 다선 (5/12) <br>
+5. 다선 (5/12) : RL applications on multi-rotor <br>
 6. 서영 (5/19) <br>
 7. 장후 (5/26) <br>
 8. 현진 (6/2) : Super Resolution <br>
@@ -37,7 +37,7 @@
 | 나현     | 경영, 소프트웨어         | CV  | NLP, RL |
 | 장후     | 컴퓨터공학 / Automobile | CV  | RL |
 | 지원     | 항공우주공, 컴퓨터공학 /      | CV  | RL |
-| 다선     | 항공우주공/ Missile Guidance | RL  | CV |
+| 다선     | 항공우주공/ Electronic Warfare | RL  | CV |
 | 재성     | 컴퓨터공학          | CV  | RL |
 | 현진     | 건축공학          | CV  |  - |
 | 서영     | 소프트웨어 / Graphics  | RL  |  - |
