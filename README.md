@@ -14,18 +14,18 @@
 
 **발표 순서** <br>
 
-1. 지원 (3/31) : Object Detection <br>
+1. 지원 (3/31): Object Detection <br>
 > 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
   모두 Object Detection 관련된 논문들이고 컨셉이 비슷해서 다 공통분모가 많아서 많아보이지 실상 내용은 없습니다!
 
-2. 재성 (4/7) : Cycle GAN <br>
-3. 나현 (4/14) : Catboost <br>
-4. 영준 (5/5) <br>
-5. 다선 (5/12) : RL applications on multi-rotor <br>
+2. 재성 (4/7): Cycle GAN <br>
+3. 나현 (4/14): Catboost <br>
+4. 영준 (5/5): <br>
+5. 다선 (5/12): RL applications on multi-rotor <br>
 > 드론 관련한 강화학습 논문을 리뷰하겠습니다. 하나는 항법 측면이고, 하나는 유도 제어 측면입니다.
-6. 서영 (5/19) <br>
-7. 장후 (5/26) <br>
-8. 현진 (6/2) : Super Resolution <br>
+6. 서영 (5/19): Fluid Simulation + CNN <br>
+7. 장후 (5/26): <br>
+8. 현진 (6/2): Super Resolution <br>
 > 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
 
 <br>
@@ -41,7 +41,7 @@
 | 다선     | 항공우주공/ Electronic Warfare | RL  | CV |
 | 재성     | 컴퓨터공학          | CV  | RL |
 | 현진     | 건축공학          | CV  |  - |
-| 서영     | 소프트웨어 / Graphics  | RL  |  - |
+| 서영     | 소프트웨어 / C.Graphics  | RL  |  - |
 | 영준     | 컴퓨터공학         | CV  | Speech, 3D Reconstruction |
 
 <br>
