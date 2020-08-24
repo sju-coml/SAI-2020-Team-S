@@ -10,7 +10,7 @@
 
 <br>
 
-## 관심 분야
+### 관심 분야
 
 |    Name  | Major / Domain    | Main |    Sub   |
 |:--------:|:-----------------:|:----:|:---------:|
@@ -42,7 +42,10 @@
 8. **현진 (6/2): Super Resolution** :
 9. **영준 (6/9): Face Reconstruction** : 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
 
+<br>
+
 #### 2020-Summer: 2020.07. ~ 2020.08.20
+
 1.
 2.
 3. **장후 (7/30): Textual Explanations for Self-Driving Vehicles** : 영준이형이 추천해주신 논문으로, 자율주행차 + Attention 을 적용한 Image Captioning (XAI) 이야기입니다.
@@ -87,6 +90,6 @@
 
 <br>
 
-# 파생 스터디
+## 파생 스터디
 
 - ROS Study (2020.08~)
