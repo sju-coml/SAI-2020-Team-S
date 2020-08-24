@@ -10,6 +10,21 @@
 
 <br>
 
+## 관심 분야
+
+|    Name  | Major / Domain    | Main |    Sub   |
+|:--------:|:-----------------:|:----:|:---------:|
+| 나현     | 경영, 소프트웨어         | CV  | NLP, RL |
+| 장후     | 컴퓨터공학 / Automobile | CV  | RL |
+| 지원     | 항공우주공, 컴퓨터공학 /      | CV  | RL |
+| 다선     | 항공우주공/ Electronic Warfare | RL  | CV |
+| 재성     | 컴퓨터공학          | CV  | RL |
+| 현진     | 건축공학          | CV  |  - |
+| 서영     | 소프트웨어 / C.Graphics  | RL  |  - |
+| 영준     | 컴퓨터공학         | CV  | Speech, 3D Reconstruction |
+
+<br>
+
 ## 주제 및 일정
 
 ### 발표 순서 <br>
@@ -44,20 +59,6 @@
 <br>
 <br>
 
-**관심 분야** <br>
-
-|    Name  | Major / Domain    | Main |    Sub   |
-|:--------:|:-----------------:|:----:|:---------:|
-| 나현     | 경영, 소프트웨어         | CV  | NLP, RL |
-| 장후     | 컴퓨터공학 / Automobile | CV  | RL |
-| 지원     | 항공우주공, 컴퓨터공학 /      | CV  | RL |
-| 다선     | 항공우주공/ Electronic Warfare | RL  | CV |
-| 재성     | 컴퓨터공학          | CV  | RL |
-| 현진     | 건축공학          | CV  |  - |
-| 서영     | 소프트웨어 / C.Graphics  | RL  |  - |
-| 영준     | 컴퓨터공학         | CV  | Speech, 3D Reconstruction |
-
-<br>
 
 ## 당부의 말씀
 
