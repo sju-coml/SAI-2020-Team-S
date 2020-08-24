@@ -37,7 +37,7 @@
 3.
 4.
 5.
-6. 서영(8/20): Motion manifold + Autoencoder <br>
+6. 서영 (8/20): Motion manifold + Autoencoder <br>
 > 내용이 많이 부족한 면이 없잖아 있어서 2학기에는 연결된 내용으로 준비하거나 더 좋은 발표로 찾아뵙겠습니다! ㅠㅠ
 
 <br>
