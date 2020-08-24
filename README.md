@@ -14,7 +14,7 @@
 
 ### 발표 순서 <br>
 
-##### 2020-1학기: 2020.03.31~2020.06.02
+#### 2020-1학기: 2020.03.31~2020.06.02
 
 1. 지원 (3/31): Object Detection <br>
 > 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
@@ -31,7 +31,7 @@
 8. 현진 (6/2): Super Resolution <br>
 > 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
 
-##### 2020-Summer: 2020.07. ~ 2020.08.20
+#### 2020-Summer: 2020.07. ~ 2020.08.20
 1.
 2.
 3.
