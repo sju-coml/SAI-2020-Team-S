@@ -12,7 +12,9 @@
 
 ## 주제 및 일정
 
-**발표 순서** <br>
+#### 발표 순서 <br>
+
+##### 2020-1학기: 2020.03.31~2020.06.02
 
 1. 지원 (3/31): Object Detection <br>
 > 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
@@ -28,6 +30,15 @@
 > 요즘도 많이 사용되는 CAM (2016) 을 비롯해, 이전까지의 CNN 시각화 방법론들을 간략히 이해해 봅시다.
 8. 현진 (6/2): Super Resolution <br>
 > 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
+
+##### 2020-Summer: 2020.07. ~ 2020.08.20
+1.
+2.
+3.
+4.
+5
+6. 서영(8/20): Motion manifold + Autoencoder <br>
+> 내용이 많이 부족한 면이 없잖아 있어서 2학기에는 연결된 내용으로 준비하거나 더 좋은 발표로 찾아뵙겠습니다! ㅠㅠ
 
 <br>
 <br>
