@@ -34,7 +34,8 @@
 #### 2020-Summer: 2020.07. ~ 2020.08.20
 1.
 2.
-3.
+3. 장후 (7/30): Textual Explanations for Self-Driving Vehicles <br>
+> 영준이형이 추천해주신 논문으로, 자율주행차 + Attention 을 적용한 Image Captioning (XAI) 이야기입니다.
 4.
 5.
 6. 서영 (8/20): Motion manifold + Autoencoder <br>
