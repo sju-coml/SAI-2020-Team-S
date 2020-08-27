@@ -33,7 +33,7 @@
 
 1. **지원 (3/31): Object Detection** : 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
   모두 Object Detection 관련된 논문들이고 컨셉이 비슷해서 다 공통분모가 많아서 많아보이지 실상 내용은 없습니다!
-2. 재성 (4/7): Cycle GAN
+2. **재성 (4/7): Cycle GAN : Generative 분야에서 unpaired image 를 이용하여 도메인 간의 스타일을 바꿀수 있도록한 논문입니다. unpaired이기 때문에 그 의의가 엄청나다고 생각합니다
 3. 나현 (4/14): Catboost
 4. 영준 (5/5): 3D Face Reconstruction
 5. **다선 (5/12): RL applications on multi-rotor** : 드론 관련한 강화학습 논문을 리뷰하겠습니다. 하나는 항법 측면이고, 하나는 유도 제어 측면입니다.
@@ -47,7 +47,7 @@
 #### 2020-Summer: 2020.07. ~ 2020.08.20
 
 1.
-2.
+2. **재성 (7/23): StyleGAN : 매우 핫한 논문을 준비해 보았습니다. 이 논문이 나온뒤로 Generative분야에 많은 발전이 생겼습니다. 
 3. **장후 (7/30): Textual Explanations for Self-Driving Vehicles** : 영준이형이 추천해주신 논문으로, 자율주행차 + Attention 을 적용한 Image Captioning (XAI) 이야기입니다.
 4. **지원 (8/6) : NAVER LABS MAPPING & LOCALIZATION CHALLENGE** : NAVER LABS Mapping&Localization 챌린지에서 3위를 수상하기까지의 과정 및 베이스라인 
 5. **다선 (8/13): RL-Technique-Hindsight Experience Replay** : 강화학습의 좋은 학습 테크닉인 HER 알고리즘에 대해 발표합니다.
