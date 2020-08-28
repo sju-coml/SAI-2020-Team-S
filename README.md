@@ -14,7 +14,7 @@
 
 |    Name  | Major / Domain    | Main |    Sub   |
 |:--------:|:-----------------:|:----:|:---------:|
-| 나현     | 경영, 소프트웨어         | CV  | NLP, RL |
+| 나현     | 경영, 소프트웨어         | NLP  | ML |
 | 장후     | 컴퓨터공학 / Automobile | CV  | RL |
 | 지원     | 항공우주공, 컴퓨터공학 /      | CV  | RL |
 | 다선     | 항공우주공/ Electronic Warfare | RL  | CV |
@@ -46,7 +46,7 @@
 
 #### 2020-Summer: 2020.07. ~ 2020.08.20
 
-1.
+1. **나현 (7/16): Transformer** : NLP의 기본인 트랜스포머의 논문과 모델의 기본이 되는 Attention에 대해 간단하게 리뷰해보았습니다.
 2. **재성 (7/23): StyleGAN** : 매우 핫한 논문을 준비해 보았습니다. 이 논문이 나온뒤로 Generative분야에 많은 발전이 생겼습니다. 
 3. **장후 (7/30): Textual Explanations for Self-Driving Vehicles** : 영준이형이 추천해주신 논문으로, 자율주행차 + Attention 을 적용한 Image Captioning (XAI) 이야기입니다.
 4. **지원 (8/6) : NAVER LABS MAPPING & LOCALIZATION CHALLENGE** : NAVER LABS Mapping&Localization 챌린지에서 3위를 수상하기까지의 과정 및 베이스라인 
