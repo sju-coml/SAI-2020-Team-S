@@ -37,7 +37,7 @@
 3. 나현 (4/14): Catboost
 4. 영준 (5/5): 3D Face Reconstruction
 5. **다선 (5/12): RL applications on multi-rotor** : 드론 관련한 강화학습 논문을 리뷰하겠습니다. 하나는 항법 측면이고, 하나는 유도 제어 측면입니다.
-6. 서영 (5/19): Fluid Simulation + CNN 
+6. **서영 (5/19): Fluid Simulation + CNN** : Calculate pressure via CNN 
 7. **장후 (5/26): Class Activation Map** : 요즘도 많이 사용되는 CAM (2016) 을 비롯해, 이전까지의 CNN 시각화 방법론들을 간략히 이해해 봅시다.
 8. **현진 (6/2): Super Resolution** :
 9. **영준 (6/9): Face Reconstruction** : 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
@@ -58,7 +58,7 @@
 #### 2020-2학기: 2020.09.03 ~ 2020.
 
 1. **영준 (9/3):**
-2. **서영 ():**
+2. **서영 (9/17): Motion editing & Denoise motion data via CAE**: Motion editing via Style transfer and Deep learning of motion synthesis
 3. **재성 ():**
 4. **다선 ():**
 5. **지원 ():**
