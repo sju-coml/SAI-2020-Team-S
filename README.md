@@ -51,7 +51,7 @@
 3. **장후 (7/30): Textual Explanations for Self-Driving Vehicles** : 영준이형이 추천해주신 논문으로, 자율주행차 + Attention 을 적용한 Image Captioning (XAI) 이야기입니다.
 4. **지원 (8/6) : NAVER LABS MAPPING & LOCALIZATION CHALLENGE** : NAVER LABS Mapping&Localization 챌린지에서 3위를 수상하기까지의 과정 및 베이스라인 
 5. **다선 (8/13): RL-Technique-Hindsight Experience Replay** : 강화학습의 좋은 학습 테크닉인 HER 알고리즘에 대해 발표합니다.
-6. **서영 (8/20): Motion manifold + Autoencoder** : 내용이 많이 부족한 면이 없잖아 있어서 2학기에는 연결된 내용으로 준비하거나 더 좋은 발표로 찾아뵙겠습니다! ㅠㅠ
+6. **서영 (8/20): Motion manifold + Autoencoder** : Learning motion manifold from corrupted data via convolutional autoencoder
 
 <br>
 
