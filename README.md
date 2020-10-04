@@ -59,11 +59,11 @@
 #### 2020-2학기: 2020.09.03 ~ 2020.
 
 1. **영준 (9/3):**
-2. **서영 (9/17): Motion editing & Denoise motion data via CAE**: Motion editing via Style transfer and Deep learning of motion synthesis
+2. **서영 (9/17): Motion editing & Denoise motion data via CAE** : Motion editing via Style transfer and Deep learning of motion synthesis
 3. **재성 ():**
 4. **다선 ():**
 5. **지원 ():**
-6. **장후 ():**
+6. **장후 (): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 추론하기까지 Unsupervised 방법론
 7. **나현 ():**
 
 <br>
