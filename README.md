@@ -61,10 +61,11 @@
 1. **영준 (9/3):**
 2. **서영 (9/17): Motion editing & Denoise motion data via CAE** : Motion editing via Style transfer and Deep learning of motion synthesis
 3. **재성 ():**
-4. **다선 ():**
-5. **지원 ():**
-6. **장후 (): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 추론하기까지 Unsupervised 방법론
-7. **나현 ():**
+4. **효나 ():**
+5. **다선 ():**
+6. **지원 ():**
+7. **장후 (): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 추론하기까지 Unsupervised 방법론
+8. **나현 ():**
 
 <br>
 <br>
