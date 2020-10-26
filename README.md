@@ -60,12 +60,12 @@
 
 1. **영준 (9/3):**
 2. **서영 (9/17): Motion editing & Denoise motion data via CAE** : Motion editing via Style transfer and Deep learning of motion synthesis
-3. **재성 ():**
-4. **효나 ():**
-5. **다선 ():**
-6. **지원 ():**
-7. **장후 (): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 추론하기까지 Unsupervised 방법론
-8. **나현 (11/12): Latent Retrieval for Weakly Supervised Open Domain Question Answering** BERT의 간단한 개념 설명과 open domain QA 분야의 ORQA 추론 및 학습 방법 
+3. **재성 (10/1):**
+4. **효나 (10/8):**
+5. **지원 (10/29):**
+6. **장후 (11/5): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 추론하기까지 Unsupervised 방법론
+7. **나현 (11/12): Latent Retrieval for Weakly Supervised Open Domain Question Answering** BERT의 간단한 개념 설명과 open domain QA 분야의 ORQA 추론 및 학습 방법 
+8. **다선 ():**
 
 <br>
 <br>
