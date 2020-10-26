@@ -65,7 +65,7 @@
 5. **다선 ():**
 6. **지원 ():**
 7. **장후 (): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 추론하기까지 Unsupervised 방법론
-8. **나현 (11/12): ORQA** BERT의 간단한 개념 설명과 open domain QA 분야의 ORQA 
+8. **나현 (11/12): Latent Retrieval for Weakly Supervised Open Domain Question Answering** BERT의 간단한 개념 설명과 open domain QA 분야의 ORQA 추론 및 학습 방법 
 
 <br>
 <br>
