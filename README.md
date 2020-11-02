@@ -63,7 +63,7 @@
 3. **재성 (10/1):**
 4. **효나 (10/8):**
 5. **지원 (10/29):**
-6. **장후 (11/5): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 추론하기까지 Unsupervised 방법론
+6. **장후 (11/5): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 와 pose 를 추론하기까지 Unsupervised 방법론
 7. **나현 (11/12): Latent Retrieval for Weakly Supervised Open Domain Question Answering** BERT의 간단한 개념 설명과 open domain QA 분야의 ORQA 추론 및 학습 방법 
 8. **다선 ():**
 
