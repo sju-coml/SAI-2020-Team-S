@@ -34,7 +34,7 @@
 
 1. **지원 (3/31): Object Detection** : 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
   모두 Object Detection 관련된 논문들이고 컨셉이 비슷해서 다 공통분모가 많아서 많아보이지 실상 내용은 없습니다!
-2. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber) 
+2. ![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)(https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber) 
 **재성 (4/7): Cycle GAN** : Generative 분야에서 unpaired image 를 이용하여 도메인 간의 스타일을 바꿀수 있도록한 논문입니다. unpaired이기 때문에 그 의의가 엄청나다고 생각합니다
 3. 나현 (4/14): Catboost
 4. **영준 (5/5): 3D Face Reconstruction** :
@@ -64,7 +64,7 @@
 2. **서영 (9/17): Motion editing & Denoise motion data via CAE** : Motion editing via Style transfer and Deep learning of motion synthesis
 3. **재성 (10/1):**
 4. **효나 (10/8):**
-5. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)]
+5. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)
 **지원 (10/29):**
 6. **다선 (11/5):**
 7. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)
