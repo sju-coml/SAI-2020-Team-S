@@ -40,7 +40,8 @@
 4. **영준 (5/5): 3D Face Reconstruction** :
 5. **다선 (5/12): RL applications on multi-rotor** : 드론 관련한 강화학습 논문을 리뷰하겠습니다. 하나는 항법 측면이고, 하나는 유도 제어 측면입니다.
 6. **서영 (5/19): Fluid Simulation + CNN** : Calculate pressure via CNN 
-7. **장후 (5/26): Class Activation Map** : 요즘도 많이 사용되는 CAM (2016) 을 비롯해, 이전까지의 CNN 시각화 방법론들을 간략히 이해해 봅시다.
+7. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)
+**장후 (5/26): Class Activation Map** : 요즘도 많이 사용되는 CAM (2016) 을 비롯해, 이전까지의 CNN 시각화 방법론들을 간략히 이해해 봅시다.
 8. **현진 (6/2): Super Resolution** :
 9. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)
 **영준 (6/9): Face Reconstruction** : 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
