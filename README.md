@@ -61,7 +61,8 @@
 
 #### 2020-2학기: 2020.09.03 ~ 2020.
 
-1. **영준 (9/3):**
+1. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)
+**영준 (9/3):**
 2. **서영 (9/17): Motion editing & Denoise motion data via CAE** : Motion editing via Style transfer and Deep learning of motion synthesis
 3. **재성 (10/1):**
 4. **효나 (10/8):**
