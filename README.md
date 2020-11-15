@@ -34,14 +34,16 @@
 
 1. **지원 (3/31): Object Detection** : 제가 리뷰할 논문은 SSD (Single Shot multibox Detector) RCNN, Fast-RCNN, Faster-RCNN, Mask RCNN 이렇게 5편입니다~!! <br> 
   모두 Object Detection 관련된 논문들이고 컨셉이 비슷해서 다 공통분모가 많아서 많아보이지 실상 내용은 없습니다!
-2. **재성 (4/7): Cycle GAN** : Generative 분야에서 unpaired image 를 이용하여 도메인 간의 스타일을 바꿀수 있도록한 논문입니다. unpaired이기 때문에 그 의의가 엄청나다고 생각합니다
+2. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)
+ **재성 (4/7): Cycle GAN** : Generative 분야에서 unpaired image 를 이용하여 도메인 간의 스타일을 바꿀수 있도록한 논문입니다. unpaired이기 때문에 그 의의가 엄청나다고 생각합니다
 3. 나현 (4/14): Catboost
-4. 영준 (5/5): 3D Face Reconstruction
+4. **영준 (5/5): 3D Face Reconstruction** :
 5. **다선 (5/12): RL applications on multi-rotor** : 드론 관련한 강화학습 논문을 리뷰하겠습니다. 하나는 항법 측면이고, 하나는 유도 제어 측면입니다.
 6. **서영 (5/19): Fluid Simulation + CNN** : Calculate pressure via CNN 
 7. **장후 (5/26): Class Activation Map** : 요즘도 많이 사용되는 CAM (2016) 을 비롯해, 이전까지의 CNN 시각화 방법론들을 간략히 이해해 봅시다.
 8. **현진 (6/2): Super Resolution** :
-9. **영준 (6/9): Face Reconstruction** : 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
+9. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)
+**영준 (6/9): Face Reconstruction** : 저는 Speech driven 3D face reconstruction을 주제로 잡고 있기 때문에 그쪽으로 발표하겠습니다~
 
 <br>
 
@@ -50,7 +52,7 @@
 1. **나현 (7/16): Transformer** : NLP의 기본인 트랜스포머의 논문과 모델의 기본이 되는 Attention에 대해 간단하게 리뷰해보았습니다.
 2. **재성 (7/23): StyleGAN** : 매우 핫한 논문을 준비해 보았습니다. 이 논문이 나온뒤로 Generative분야에 많은 발전이 생겼습니다. 
 3. **장후 (7/30): Textual Explanations for Self-Driving Vehicles** : 영준이형이 추천해주신 논문으로, 자율주행차 + Attention 을 적용한 Image Captioning (XAI) 이야기입니다.
-4. **지원 (8/6) : NAVER LABS MAPPING & LOCALIZATION CHALLENGE** : NAVER LABS Mapping&Localization 챌린지에서 3위를 수상하기까지의 과정 및 베이스라인 
+4. **지원 (8/6): NAVER LABS MAPPING & LOCALIZATION CHALLENGE** : NAVER LABS Mapping&Localization 챌린지에서 3위를 수상하기까지의 과정 및 베이스라인 
 5. **다선 (8/13): RL-Technique-Hindsight Experience Replay** : 강화학습의 좋은 학습 테크닉인 HER 알고리즘에 대해 발표합니다.
 6. **서영 (8/20): Motion manifold + Autoencoder** : Learning motion manifold from corrupted data via convolutional autoencoder
 
@@ -62,9 +64,9 @@
 2. **서영 (9/17): Motion editing & Denoise motion data via CAE** : Motion editing via Style transfer and Deep learning of motion synthesis
 3. **재성 (10/1):**
 4. **효나 (10/8):**
-5. **지원 (10/29):**
+5. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber) **지원 (10/29):**
 6. **다선 (11/5):**
-7. **장후 (11/12): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 와 pose 를 추론하기까지 Unsupervised 방법론
+7. [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber)](https://www.youtube.com/channel/UCMf5F1uTcuz8MPN62kb55cg/playlists?view_as=subscriber) **장후 (11/12): Unsupervised Learning of Depth and Ego-Motion from Video** : Single Camera + View Synthesis 로 depth 와 pose 를 추론하기까지 Unsupervised 방법론
 8. **나현 (11/19): Latent Retrieval for Weakly Supervised Open Domain Question Answering** BERT의 간단한 개념 설명과 open domain QA 분야의 ORQA 추론 및 학습 방법 
 
 
